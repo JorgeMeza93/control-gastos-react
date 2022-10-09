@@ -86,6 +86,7 @@ const eliminarGasto = id => {
         isValid={isValid}
         setIsValid={setIsValid}
         gastos={gastos}
+        setGastos={setGastos}
       />
       {isValid ? (
         <>
